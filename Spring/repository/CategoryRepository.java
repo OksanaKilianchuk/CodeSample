@@ -9,9 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by Yurii on 21.03.2017.
- */
 @Repository
 public interface CategoryRepository extends AbstractRepository<Category, Long> {
     @Query("select c from Category c order by c.siteDomain.name")

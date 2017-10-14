@@ -7,9 +7,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-/**
- * Created by Yurii on 21.03.2017.
- */
 @Repository
 public interface PostRepository extends AbstractRepository<Post, Long> {
 
